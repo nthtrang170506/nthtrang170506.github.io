@@ -1,0 +1,42 @@
+head {
+    background-color: white;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    image-rendering: auto;
+
+}
+body {
+    background-color: #f1f1f1;
+    color: black !important;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.table-container {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    background:#be1616;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+    line-height: 48px;
+}
+footer {
+    background-color: #bb4848;
+    padding: 20px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
