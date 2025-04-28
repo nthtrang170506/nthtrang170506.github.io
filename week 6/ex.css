@@ -1,0 +1,13 @@
+p {
+    color: red;
+    }
+p#primary {
+    color: blue;
+    }
+p.primary {
+    color: green;
+    }
+span {
+    background: DodgerBlue;
+    color: #ffffff;
+    }

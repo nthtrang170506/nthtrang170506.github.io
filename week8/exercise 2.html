@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Million Dollar Property Listings</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .property {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .price {
+            color: #d9534f;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .badge-address {
+            background-color: #5bc0de;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header and navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-home"></i> House bussiness
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Messages</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mb-4">Million Dollar Property Listings</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-md-6">
+                <!-- Property 1 -->
+                <div class="property">
+                    <div class="media d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <img src="01.jpg" alt="Luxury home" class="img-fluid" style="width: 180px;">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="mt-0">Media Healing</h4>
+                            <a href="#" class="price">$1,975,000</a>
+                            <span class="badge badge-address float-end">609 W Gravers Ln</span>
+                            <ul class="list-inline mt-2">
+                                <li class="list-inline-item"><i class="fas fa-ruler-combined"></i> 4,820 SqFt</li>
+                                <li class="list-inline-item"><i class="fas fa-bed"></i> 5 Bedrooms</li>
+                                <li class="list-inline-item"><i class="fas fa-bath"></i> 4 Bathrooms</li>
+                            </ul>
+                            <p class="mt-2">High-end villa with premium amenities, luxurious interior, and prime location.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="property">
+                    <div class="media d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <img src="02.jpg" alt="Penthouse" class="img-fluid" style="width: 180px;">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="mt-0">Media Healing</h4>
+                            <a href="#" class="price">$2,250,000</a>
+                            <span class="badge badge-address float-end">123 Sky Tower</span>
+                            <ul class="list-inline mt-2">
+                                <li class="list-inline-item"><i class="fas fa-ruler-combined"></i> 3,500 SqFt</li>
+                                <li class="list-inline-item"><i class="fas fa-bed"></i> 4 Bedrooms</li>
+                                <li class="list-inline-item"><i class="fas fa-bath"></i> 3 Bathrooms</li>
+                            </ul>
+                            <p class="mt-2">Premium penthouse with panoramic city views and modern design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-6">
+                <!-- Property 3 -->
+                <div class="property">
+                    <div class="media d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <img src="03.jpg" alt="Beach house" class="img-fluid" style="width: 180px;">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="mt-0">Media Healing</h4>
+                            <a href="#" class="price">$3,500,000</a>
+                            <span class="badge badge-address float-end">456 Beach Rd</span>
+                            <ul class="list-inline mt-2">
+                                <li class="list-inline-item"><i class="fas fa-ruler-combined"></i> 6,200 SqFt</li>
+                                <li class="list-inline-item"><i class="fas fa-bed"></i> 6 Bedrooms</li>
+                                <li class="list-inline-item"><i class="fas fa-bath"></i> 5 Bathrooms</li>
+                            </ul>
+                            <p class="mt-2">Oceanfront villa with infinity pool, spacious garden, and private beach access.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 4 -->
+                <div class="property">
+                    <div class="media d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <img src="05.jpg" alt="Townhouse" class="img-fluid" style="width: 180px;">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="mt-0">Media Healing</h4>
+                            <a href="#" class="price">$1,800,000</a>
+                            <span class="badge badge-address float-end">789 Downtown St</span>
+                            <ul class="list-inline mt-2">
+                                <li class="list-inline-item"><i class="fas fa-ruler-combined"></i> 3,200 SqFt</li>
+                                <li class="list-inline-item"><i class="fas fa-bed"></i> 4 Bedrooms</li>
+                                <li class="list-inline-item"><i class="fas fa-bath"></i> 3.5 Bathrooms</li>
+                            </ul>
+                            <p class="mt-2">Newly built townhouse with open floor plan, located near city center and amenities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Million Dollar Properties</h5>
+                    <p>Specializing in premium real estate listings.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>Contact: info@milliondollarproperties.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
